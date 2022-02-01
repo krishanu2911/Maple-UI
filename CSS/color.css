@@ -1,0 +1,12 @@
+:root{
+    --background-color: hsl(45, 73%, 96%);
+    --cta: hsl(190, 20%, 34%);
+    --dark: hsla(190, 20%, 34%, 0.651);
+    --primary: hsl(195, 26%, 58%);
+    --primary2: hsla(195, 26%, 58%, 0.795) ;
+    --secondary: hsl(198, 57%, 88%);
+    --dark-gray: hsl(215, 28%, 17%);
+    --gray: hsl(217, 19%, 27%);
+    --light-gray: hsl(220, 9%, 46%);
+    --lightest-gray: hsl(218, 11%, 65%);
+}
