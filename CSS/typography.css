@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&family=Poppins:wght@300;400;700&display=swap');
+:root{
+    font-family: 'Montserrat', sans-serif;
+}
+/*  sizes */
+.txt-xxl{
+    font-size: 3rem;
+    line-height: 4rem;
+}
+.txt-xl{
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+.txt-l{
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.txt-m{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.txt-s{
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+/* weights */
+.light{
+    font-weight: 300;
+}
+.regular{
+    font-weight: 400;
+}
+.medium{
+    font-weight: 500;
+}
+.semibold{
+    font-weight: 600;
+}
+.bold{
+    font-weight: 700;
+}
+.boldest{
+    font-weight: 900;
+}
+/* border radius */
+.bor-s{
+    border-radius: 0.3rem;
+}
+.bor-m{
+    border-radius: 0.625rem;
+}
+.bor-l{
+    border-radius: 0.9375rem;
+}
+.bor-full{
+    border-radius: 62.4375rem;
+}
+
+/* .test-border{
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid black;
+    margin-left: 1rem;
+
+} */
