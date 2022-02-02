@@ -1,24 +1,24 @@
 .avatar{
     border-radius: 100%;
-    width: 5rem;
-    height: auto;
+    min-width: 5rem;
+    min-height: 5rem;
     cursor: pointer;
 }
 .avatar-l{
-    width: 6rem;
-    height: auto;
+    min-width: 6rem;
+    min-height: 6rem;
 }
 .avatar-xl{
-    width: 7rem;
-    height: auto;
+    min-width: 7rem;
+    min-height: 7rem;
 }
 .avatar-s{
-    width: 3rem;
-    height: auto;
+    min-width: 3rem;
+    min-height: 3rem;
 }
 .avatar-xs{
-    width: 2rem;
-    height: auto;
+    min-width: 2rem;
+    min-height: 2rem;
 }
 .avatar-square{
     border-radius: 0.625rem;
