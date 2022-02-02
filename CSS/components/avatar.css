@@ -4,19 +4,19 @@
     height: 5rem;
     cursor: pointer;
 }
-.avatar-l{
+.avatar-lg{
     width: 6rem;
     height: 6rem;
 }
-.avatar-xl{
+.avatar-xlg{
     width: 7rem;
     height: 7rem;
 }
-.avatar-s{
+.avatar-sm{
     width: 3rem;
     height: 3rem;
 }
-.avatar-xs{
+.avatar-xsm{
     width: 2rem;
     height: 2rem;
 }
