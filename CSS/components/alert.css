@@ -1,0 +1,28 @@
+.avatar{
+    border-radius: 100%;
+    width: 5rem;
+    height: auto;
+    cursor: pointer;
+}
+.avatar-l{
+    width: 6rem;
+    height: auto;
+}
+.avatar-xl{
+    width: 7rem;
+    height: auto;
+}
+.avatar-s{
+    width: 3rem;
+    height: auto;
+}
+.avatar-xs{
+    width: 2rem;
+    height: auto;
+}
+.avatar-square{
+    border-radius: 0.625rem;
+}
+.avatar-shadow{
+    box-shadow: 1px 2px 25px 1px var(--light-gray);
+}
