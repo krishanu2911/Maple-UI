@@ -13,4 +13,8 @@
     --gray: hsl(217, 19%, 27%);
     --light-gray: hsl(220, 9%, 46%);
     --lightest-gray: hsl(218, 11%, 65%);
+    --success-color: #22c55e;
+    --success-color-light: #bbf7d0;
+    --fail-color: #ef4444;
+    --fail-color-light:#fecaca;
 }
