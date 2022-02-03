@@ -11,7 +11,7 @@
     font-size: 2rem;
     line-height: 2.5rem;
 }
-.txt-l{
+.txt-lg{
     font-size: 1.5rem;
     line-height: 2rem;
 }
@@ -19,40 +19,40 @@
     font-size: 1rem;
     line-height: 1.5rem;
 }
-.txt-s{
+.txt-sm{
     font-size: 0.5rem;
     line-height: 1rem;
 }
 /* weights */
-.light{
+.light-font{
     font-weight: 300;
 }
-.regular{
+.regular-font{
     font-weight: 400;
 }
-.medium{
+.medium-font{
     font-weight: 500;
 }
-.semibold{
+.semibold-font{
     font-weight: 600;
 }
-.bold{
+.bold-font{
     font-weight: 700;
 }
-.boldest{
+.boldest-font{
     font-weight: 900;
 }
 /* border radius */
-.bor-s{
+.border-rad-sm{
     border-radius: 0.3rem;
 }
-.bor-m{
+.border-rad-m{
     border-radius: 0.625rem;
 }
-.bor-l{
+.border-rad-lg{
     border-radius: 0.9375rem;
 }
-.bor-full{
+.border-rad-full{
     border-radius: 62.4375rem;
 }
 
