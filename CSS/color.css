@@ -1,6 +1,10 @@
 :root{
-    --background-color: hsl(45, 73%, 96%);
-    --cta: hsl(190, 20%, 34%);
+    --background-color: #232946;
+    --headline-color: #fffffe;
+    --paragraph-color: #b8c1ec;
+    --cta: #eebbc3;
+    --button-text-color: #232946;
+    --stroke: #121629;
     --dark: hsla(190, 20%, 34%, 0.651);
     --primary: hsl(195, 26%, 58%);
     --primary2: hsla(195, 26%, 58%, 0.795) ;
