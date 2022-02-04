@@ -1,0 +1,54 @@
+.btn{
+    width: max-content;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+    border-radius: 0.2rem;
+    font-weight: 600;
+}
+.btn i{
+    font-size: 1.5rem;
+}
+.btn-secondary{
+    border: 3px solid var(--primary-color);
+    background-color: var(--background-color);
+    color: var(--headline-color);
+}
+.btn-secondary:hover{
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+}
+.btn-success{
+    background-color: var(--success-color);
+    color: var(--success-color-light);
+}
+.btn-failed{
+    background-color: var(--fail-color);
+    color: var(--fail-color-light);
+}
+.btn-suc-outline{
+    border: 3px solid var(--success-color);
+    background-color: var(--success-color-light);
+    color: var(--success-text-color);
+}
+.btn-suc-outline:hover{
+    background-color: var(--success-color);
+    color: var(--success-color-light);
+}
+.btn-fail-outline{
+    border: 3px solid var(--fail-color);
+    background-color: var(--fail-color-light);
+    color: var(--fail-text-color);
+}
+.btn-fail-outline:hover{
+    background-color: var(--fail-color);
+    color: var(--fail-color-light);
+}
+.btn-icon{
+    padding: 1rem;
+}
+.fab{
+    min-width: 4rem;
+    min-height: 4rem;
+    border-radius: 100%;
+}
