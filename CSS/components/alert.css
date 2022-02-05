@@ -1,0 +1,37 @@
+.alert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding:  1rem;
+    border-radius: 0.3rem;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+.alert-dark{
+    background-color: var(--background-color);
+    color: var(--paragraph-color);
+}
+.alert-success{
+    border: 3px solid var(--success-color);
+    background-color: var(--success-color-light);
+    color: var(--success-text-color);
+}
+.alert-fail{
+    border: 3px solid var(--fail-color);
+    background-color: var(--fail-color-light);
+    color: var(--fail-text-color);
+}
+.alert-warn{
+    border: 3px solid var(--warning-color);
+    background-color: var(--warning-color-light);
+    color: var(--warning-text-color);
+}
+.close-icon{
+    margin: 0 0 0 1rem;
+    cursor: pointer;
+}
+.alert > i {
+    margin-right: 1rem;
+    font-size: 2rem;
+}
