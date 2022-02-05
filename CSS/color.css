@@ -19,4 +19,7 @@
     --fail-color: #ef4444;
     --fail-text-color: #7f1d1d;
     --fail-color-light:#fecaca;
+    --warning-color: #f97316;
+    --warning-color-light: #fdba74;
+    --warning-text-color: #9a3412;
 }
