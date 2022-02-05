@@ -47,7 +47,7 @@
 .btn-icon{
     padding: 1rem;
 }
-.fab{
+.floating-action-btn{
     min-width: 4rem;
     min-height: 4rem;
     border-radius: 100%;
