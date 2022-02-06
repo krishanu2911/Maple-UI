@@ -1,0 +1,64 @@
+.card{
+    background-color: var(--paragraph-color);
+    max-width: 19rem;
+    height: fit-content;
+    padding-bottom: 0.5rem;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons{
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+}
+.icons:hover{
+    cursor: pointer;
+    background-color: var(--active-hover-color);
+    color: white;
+}
+.small-text{
+    font-size: 0.8rem;
+}
+.hearder-text-primary{
+    color: var(--button-text-color);
+}
+.padding-left-right-sm{
+    padding: 0 0.5rem
+}
+.card-shadow{
+    box-shadow: 1px 2px 25px 1px var(--light-gray);
+}
+.card-relative{
+    position: relative;
+}
+.badge-value{
+    border-radius: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+}
+.card-close-btn{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.card-close-btn:hover{
+    background-color: var(--lightest-gray);
+}
+.text-overlap{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(184, 193, 236,0), rgba(184, 193, 236, 1));
+}
+.flex-row{
+    display: flex;
+}
