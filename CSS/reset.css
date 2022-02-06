@@ -73,3 +73,6 @@
       background-color: white;
       border-color: transparent;
   }
+  .maple-flex{
+    display: flex;
+  }

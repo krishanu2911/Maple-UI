@@ -4,6 +4,7 @@
     --headline-color: #fffffe;
     --paragraph-color: #b8c1ec;
     --active-hover-color: #818cf8;
+    --gradient-bg-color: linear-gradient(to bottom, rgba(184, 193, 236,0), rgba(184, 193, 236, 1));
     --primary-color: #eebbc3;
     --button-text-color: #232946;
     --stroke: #121629;
