@@ -23,6 +23,20 @@
     font-size: 0.5rem;
     line-height: 1rem;
 }
+/* text color */
+.txt-gray{
+    color: var(--light-gray);
+}
+/* text alignment */
+.txt-center{
+    text-align: center;
+}
+.txt-left{
+    text-align: left;
+}
+.txt-right{
+    text-align: right;
+}
 /* weights */
 .light-font{
     font-weight: 300;
