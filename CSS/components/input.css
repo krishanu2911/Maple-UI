@@ -1,0 +1,28 @@
+.input-form{
+    display: flex;
+    width: 20rem;
+    height: max-content;
+    flex-direction: column;
+}
+.input-lable{
+    display: block;
+}
+.input-user{
+    border: 2px solid var(--lightest-gray);
+    padding: 0.3rem;
+    outline: transparent;
+    border-radius: 0.3rem;
+    display: block;
+}
+.input-message{
+    font-size: 0.8rem;
+}
+.req-mark{
+    color: var(--fail-color);
+}
+.err{
+    color: var(--fail-color);
+}
+.err-border{
+    border-color: var(--fail-color);
+}
