@@ -8,7 +8,6 @@ const baselineDiv = document.querySelector("#baseline-div");
 leadingBtn.addEventListener("click", leadingClickHandler);
 
 function leadingClickHandler(){
-    console.log("hello");
     leadingDiv.classList.remove("hide-snack");
 }
 leadingClose.addEventListener("click", leadingClosingClickHandler);
@@ -19,7 +18,6 @@ function leadingClosingClickHandler(){
 baselineBtn.addEventListener("click", baselineClickHandler);
 
 function baselineClickHandler(){
-    console.log("hello");
     baselineDiv.classList.remove("hide-snack");
 }
 baselineClose.addEventListener("click", baselineClosingClickHandler);
