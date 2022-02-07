@@ -1,0 +1,16 @@
+.img {
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+}
+.img-res {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.img-rounded {
+    border-radius: 50%;
+}
+.img-br-rounded {
+    border-radius: 0.5rem;
+}
