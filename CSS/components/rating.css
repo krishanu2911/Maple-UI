@@ -1,0 +1,17 @@
+.star-sm{
+    font-size: 1rem;
+}
+.star-m{
+    font-size: 2rem;
+}
+.not-selected{
+    color: var(--light-gray);
+}
+.selected{
+    color: gold;
+}
+.rating-pill{
+    border: 2px solid gold;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
