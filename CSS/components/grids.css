@@ -1,0 +1,17 @@
+.grid-wrap-2-2{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns:  1fr 1fr;
+}
+.grid-wrap-3-3{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr  1fr;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+.grid-pills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
