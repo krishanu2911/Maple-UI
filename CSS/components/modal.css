@@ -33,7 +33,7 @@
     padding: 1rem;
     width: 15rem;
     z-index: 2;
-    max-height: 15rem;
+    height: fit-content;
     background-color: white;
     border-radius: 0.5rem;
 }
