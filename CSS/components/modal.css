@@ -13,21 +13,10 @@
     display: flex;
 }
 .dailog-btn-wrap{
-    display: flex;
     justify-content: flex-end;
     gap: 1rem;
 }
-.dialog-btn{
-    display: flex;
-    justify-content: flex-end;
-    border: none;
-    width: 5rem;
-    height: 2.5rem;
-    cursor: pointer;
-    border-radius: 1rem;
-}
 .dialog{
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
