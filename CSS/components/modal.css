@@ -1,0 +1,30 @@
+.dialog-main{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+}
+.open{
+    display: flex;
+}
+.dailog-btn-wrap{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.dialog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 15rem;
+    z-index: 2;
+    height: fit-content;
+    background-color: white;
+    border-radius: 0.5rem;
+}
