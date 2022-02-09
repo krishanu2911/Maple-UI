@@ -1,3 +1,6 @@
+body{
+    background-color: var(--section-background-color);
+}
 main{
     width: 100%;
     min-height: 100vh;
@@ -31,5 +34,11 @@ main{
     background-color: var(--section-background-color);
 }
 .list-pills:hover{
+    background-color: var(--paragraph-color);
+}
+.alert-display-div{
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
     background-color: var(--paragraph-color);
 }
