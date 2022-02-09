@@ -73,6 +73,15 @@
       background-color: white;
       border-color: transparent;
   }
+  /* flex - classes */
   .maple-flex{
     display: flex;
+  }
+  .maple-flex-xy-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .maple-grid{
+    display: grid;
   }
