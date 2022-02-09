@@ -1,0 +1,35 @@
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--section-background-color);
+    grid-auto-flow: row;
+    grid-template-columns: 20rem 4fr ;
+    grid-template-rows: 3rem 6fr 1fr;
+}
+.nav-bar{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.side-section{
+    padding: 2rem 0rem 0rem 5rem;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.main-display{
+    padding: 1rem 8rem 0rem 2rem;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.footer{
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+.list-wrap{
+    width: 100%;
+}
+.list-pills{
+    background-color: var(--section-background-color);
+}
+.list-pills:hover{
+    background-color: var(--paragraph-color);
+}

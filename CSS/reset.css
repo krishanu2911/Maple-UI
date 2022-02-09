@@ -85,3 +85,7 @@
   .maple-grid{
     display: grid;
   }
+  /* margins */
+  .margin-top-bottom{
+    margin: 2rem 0rem;
+  }
