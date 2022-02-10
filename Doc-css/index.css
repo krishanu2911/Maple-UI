@@ -3,14 +3,14 @@ main{
     flex-direction: column;
     align-items: center;
     background-color: var(--background-color);
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
 }
 .footer-div{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 5rem;
     background-color: var(--background-color);
 }
@@ -18,12 +18,6 @@ main{
     margin-top: 2rem;
     margin-bottom: 1rem;
     width: 90%;
-}
-.header-text{
-    color: var(--headline-color);
-}
-.header-text:hover{
-    color: var(--paragraph-color);
 }
 .navbar{
     display: flex;
@@ -34,12 +28,6 @@ main{
     display: flex;
     align-items: baseline;
     gap: 3rem;
-}
-.navbar-icon{
-    color: var(--headline-color);
-}
-.navbar-icon:hover{
-    color: var(--paragraph-color);
 }
 .main-content-area{
     margin-top: 2rem;

@@ -4,7 +4,7 @@
     height: fit-content;
     padding-bottom: 0.5rem;
 }
-.footer{
+.footer-card{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,7 +33,7 @@
 .card-relative{
     position: relative;
 }
-.badge-value{
+.card-badge-value{
     border-radius: 0.5rem;
     height: 3rem;
     width: 3rem;

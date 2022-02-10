@@ -2,9 +2,8 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem ;
+    padding: 0.5rem 2rem;
     align-items: center;
-    box-shadow: 1px 2px 25px 1px var(--light-gray);
     background-color: var(--background-color);
 }
 .nav-left{
@@ -16,10 +15,4 @@
 .nav-right{
     display: flex;
     gap: 1rem;
-}
-.header-text{
-    color: var(--paragraph-color);
-}
-.navbar-icon{
-    color: var(--headline-color);
 }
