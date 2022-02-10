@@ -69,7 +69,6 @@
 .border-rad-full{
     border-radius: 62.4375rem;
 }
-/* text - color */
 .header-text-color{
     color: var(--headline-color);
 }
@@ -77,9 +76,5 @@
     color: var(--paragraph-color);
 }
 .test-border{
-    /* width: 10rem; */
-    /* height: 10rem; */
     border: 1px solid black;
-    /* margin-left: 1rem; */
-
 }
