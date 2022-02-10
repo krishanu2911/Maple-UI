@@ -45,9 +45,9 @@
                     <a href="#"><li class="list-pills">Image</li></a>
                     <a href="#"><li class="list-pills">Input</li></a>
                     <a href="#"><li class="list-pills">Text Utilities</li></a>
-                    <a href="#"><li class="list-pills"><h4></h4>list</li></a>
+                    <a href="#"><li class="list-pills">list</li></a>
                     <a href="#"><li class="list-pills">Navigation</li></a>
-                    <a href="#"><li class="list-pills">Modal</li></a>
+                    <a href="#"><li class="list-pills"><h4>Modal</h4></li></a>
                     <a href="#"><li class="list-pills">Rating</li></a>
                     <a href="#"><li class="list-pills">Snackbar</li></a>
                     <a href="#"><li class="list-pills">Grid</li></a>
@@ -57,37 +57,12 @@
         <!-- main content area -->
 
         <div class="main-display ">
-                <h1 class="margin-top-bottom">List</h1>
+                <h1 class="margin-top-bottom">Modal (dialog)</h1>
                 <p class="simebold-font">This component is used to display the avatars of users as there Display picture with various different styling</p> 
-                <h2 class="margin-top-bottom">Simple list</h2>
+                <h2 class="margin-top-bottom">Dialog</h2>
                 <div class="component-display-div maple-flex-xy-center">
-                    <div class="list-wrap">
-                        <ul>
-                            <li class="list-pills">list item 1</li>
-                            <li class="list-pills">list item 2</li>
-                            <li class="list-pills">list item 3</li>
-                            <li class="list-pills">list item 4</li>
-                            <li class="list-pills">list item 5</li>
-                            
-                        </ul>
-                    </div>
-                </div>
-                <h2 class="margin-top-bottom">Notification list</h2>
-                <div class="component-display-div maple-flex-xy-center">
-                    <div class="list-wrap ">
-                        <ol reversed>
-                            <li class="list-pills notification-pill"><i class="fab fa-whatsapp-square"></i> <h5>Notification 1</h5> </li>
-                            <li class="list-pills notification-pill"><i class="fab fa-whatsapp-square"></i> <h5>Notification 2</h5> </li>
-                            <li class="list-pills notification-pill"><i class="fab fa-whatsapp-square"></i> <h5>Notification 3</h5> </li>
-                            <li class="list-pills notification-pill"><i class="fab fa-whatsapp-square"></i> <h5>Notification 4</h5> </li>
-                            <li class="list-pills notification-pill"><i class="fab fa-whatsapp-square"></i> <h5>Notification 5</h5> </li>
-                            
-                        </ol>
-                    </div>
-                </div>
-                
-                
-                
+                    <button class="open-dialog btn" >Modal btn click me!!</button>
+                </div> 
         </div>
 
         <!-- footer section -->
@@ -97,7 +72,23 @@
         </footer>
 
     </main>
+    <div class="dialog-main">
+        <div class="dialog">
+            <header class="dialog-header">
+                <div class="txt-xl bold-font">Github</div>
+                <div class="txt-lg txt-gray">Comits</div>
+                <div>2 files changed</div>
+                <div>1 new file created</div>
+            </header>
+            <div class="dailog-btn-wrap">
+                <button class="btn ">Allow</button>
+                <button class="btn ">Deny</button>
+            </div>
+        </div>
+        
+    </div>
     
     <script src="https://kit.fontawesome.com/0e624d796c.js" crossorigin="anonymous"></script>
+    <script src="../JS/modal.js"></script>
 </body>
 </html>
