@@ -85,12 +85,28 @@ main{
     background-color: white;
     border-radius: 0.5rem;
 }
+/* used this just for the showcase of the navbar on the doc site else existing class naming will be used */
+.nav-showcase{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    align-items: center;
+    background-color: var(--background-color);
+}
+/* ----------------------------------------------- */
 @media only screen and (max-width: 800px) {
     .side-section{
         display: none;
     }
     .main-display{
         padding: 1rem ;
+    }
+    .nav-bar > .nav-left a{
+        font-size: 1.5rem;
+    }
+    .nav-showcase > .nav-left a{
+        font-size: 1.5rem;
     }
     main{
         /* margin: 0 auto; */
