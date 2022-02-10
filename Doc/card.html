@@ -13,7 +13,7 @@
         <!-- navigation section -->
         <nav class="nav-bar">
             <div class="nav-left">
-                <i class="header-text-color fas fa-bars txt-xl navbar-icon"></i>
+                <button class="open-dialog nav-modal" ><i class="header-text-color fas fa-bars txt-xl navbar-icon "></i></button>
                 <a class="header-text-color txt-xl semibold-font" href="../index.html">Maple UI</a>
             </div>
             
@@ -29,35 +29,35 @@
             <h3>Get Started</h3>
             <div class="list-wrap">
                 <ul>
-                    <a href="#"><li class="list-pills">Introduction</li></a>
+                    <a href="./docs.html"><li class="list-pills">Introduction</li></a>
                     <a href="#"><li class="list-pills">colors</li></a>
-                    <a href="#"><li class="list-pills">Typography</li></a>
+                    <a href="./typography.html"><li class="list-pills">Typography</li></a>
                 </ul>
             </div>
             <h3>Components</h3>
             <div class="list-wrap">
                 <ul>
-                    <a href="#"><li class="list-pills">Alert</li></a>
-                    <a href="#"><li class="list-pills">Avatar</li></a>
-                    <a href="#"><li class="list-pills">Badge</li></a>
-                    <a href="#"><li class="list-pills">Button</li></a>
-                    <a href="#"><li class="list-pills"><h4>Card</h4></li></a>
-                    <a href="#"><li class="list-pills">Image</li></a>
-                    <a href="#"><li class="list-pills">Input</li></a>
-                    <a href="#"><li class="list-pills">Text Utilities</li></a>
-                    <a href="#"><li class="list-pills">list</li></a>
-                    <a href="#"><li class="list-pills">Navigation</li></a>
-                    <a href="#"><li class="list-pills">Modal</li></a>
-                    <a href="#"><li class="list-pills">Rating</li></a>
-                    <a href="#"><li class="list-pills">Snackbar</li></a>
-                    <a href="#"><li class="list-pills">Grid</li></a>
+                    <a href="./alert.html"><li class="list-pills">Alert</li></a>
+                    <a href="./avatar.html"><li class="list-pills">Avatar</li></a>
+                    <a href="./badge.html"><li class="list-pills">Badge</li></a>
+                    <a href="./button.html"><li class="list-pills">Button</li></a>
+                    <a href="./card.html"><li class="list-pills"><h4>Card</h4></li></a>
+                    <a href="./image.html"><li class="list-pills">Image</li></a>
+                    <a href="./input.html"><li class="list-pills">Input</li></a>
+                    <a href="./text-utilites.html"><li class="list-pills">Text Utilities</li></a>
+                    <a href="./list.html"><li class="list-pills">list</li></a>
+                    <a href="./navigation.html"><li class="list-pills">Navigation</li></a>
+                    <a href="./modal.html"><li class="list-pills">Modal</li></a>
+                    <a href="./rating.html"><li class="list-pills">Rating</li></a>
+                    <a href="./snackbar.html"><li class="list-pills">Snackbar</li></a>
+                    <a href="./grid.html"><li class="list-pills">Grid</li></a>
                 </ul>
             </div>
         </div>
         <!-- main content area -->
 
         <div class="main-display ">
-                <h1 class="margin-top-bottom">Button</h1>
+                <h1 class="margin-top-bottom">Card</h1>
                 <p class="simebold-font">This component is used to display the avatars of users as there Display picture with various different styling</p> 
                 <h2 class="margin-top-bottom">Badge Card</h2>
                 <div class="light-background component-display-div-row maple-flex-xy-center ">
@@ -81,7 +81,7 @@
                             
                         </div>
                         <div class="badge-value top-right card-badge-value"><h6>New Movie</h6></div>
-                        <div class="footer">
+                        <div class="footer-card">
                                 <div class="icons">READ</div>
                                 <div class="icons">BOOKMARK</div>
                                 <i class="far fa-heart icons"></i>
@@ -110,7 +110,7 @@
                             </div>
                             <div class="card-close-btn top-right"><i class="fas fa-times-circle"></i></div>   
                         </div>
-                        <div class="footer">
+                        <div class="footer-card">
                                 <div class="icons">READ</div>
                                 <div class="icons">BOOKMARK</div>
                                 <i class="far fa-heart icons"></i>
@@ -139,7 +139,7 @@
                             
                             
                         
-                        <div class="footer">
+                        <div class="footer-card">
                                 <div class="icons">READ</div>
                                 <div class="icons">BOOKMARK</div>
                                 <i class="far fa-heart icons"></i>
@@ -166,7 +166,7 @@
                             
                             
                         </div>
-                        <div class="footer">
+                        <div class="footer-card">
                                 <div class="icons">READ</div>
                                 <div class="icons">BOOKMARK</div>
                                 <i class="far fa-heart icons"></i>
@@ -193,7 +193,7 @@
                             
                             
                         </div>
-                        <div class="footer">
+                        <div class="footer-card">
                                 <div class="icons">READ</div>
                                 <div class="icons">BOOKMARK</div>
                                 <i class="far fa-heart icons"></i>
@@ -223,7 +223,7 @@
                             
                             
                         </div>
-                        <div class="footer">
+                        <div class="footer-card">
                                 <div class="icons">READ</div>
                                 <div class="icons">BOOKMARK</div>
                                 <i class="far fa-heart icons"></i>
@@ -253,7 +253,7 @@
                             
                             
                         </div>
-                        <div class="footer">
+                        <div class="footer-card">
                                 <button class="btn ">Add to card</button>
                                 <button class="btn btn-secondary">Buy Now</button>
                                 <!-- <div class="icons">READ</div>
@@ -269,13 +269,44 @@
 
         <!-- footer section -->
 
-        <footer class="footer">
-            <h1>footer</h1>
+        <footer class=" footer">
+            <div class="footer-text">
+                Made with love ❤ By <a class="semibold-font footer-link" target="_blank" href="https://twitter.com/KrishanuDutta_">KrishanuDutta</a>
+            </div>
         </footer>
 
     </main>
+
+    <div class="dialog-main">
+        <div class="dialog">
+            <header class="dialog-header">
+                <div class="list-wrap ham-list">
+                    <ul>
+                        <a href="./docs.html"><li class="list-pills">Introduction</li></a>
+                        <a href="#"><li class="list-pills">colors</li></a>
+                        <a href="./typography.html"><li class="list-pills">Typography</li></a>
+                        <a href="./alert.html"><li class="list-pills">Alert</li></a>
+                        <a href="./avatar.html"><li class="list-pills">Avatar</li></a>
+                        <a href="./badge.html"><li class="list-pills">Badge</li></a>
+                        <a href="./button.html"><li class="list-pills">Button</li></a>
+                        <a href="./card.html"><li class="list-pills">Card</li></a>
+                        <a href="./image.html"><li class="list-pills">Image</li></a>
+                        <a href="./input.html"><li class="list-pills">Input</li></a>
+                        <a href="./text-utilites.html"><li class="list-pills">Text Utilities</li></a>
+                        <a href="./list.html"><li class="list-pills">list</li></a>
+                        <a href="./navigation.html"><li class="list-pills">Navigation</li></a>
+                        <a href="./modal.html"><li class="list-pills">Modal</li></a>
+                        <a href="./rating.html"><li class="list-pills">Rating</li></a>
+                        <a href="./snackbar.html"><li class="list-pills">Snackbar</li></a>
+                        <a href="./grid.html"><li class="list-pills">Grid</li></a>
+                    </ul>
+                </div>
+        </div>
+        
+    </div>
     
     <script src="https://kit.fontawesome.com/0e624d796c.js" crossorigin="anonymous"></script>
     <script src="../JS/card.js"></script>
+    <script src="../JS/modal.js"></script>
 </body>
 </html>

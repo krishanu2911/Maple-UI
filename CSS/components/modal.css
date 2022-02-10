@@ -17,13 +17,12 @@
     justify-content: flex-end;
     gap: 1rem;
 }
-.dialog{
+.modal-wrap{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 1rem;
     width: 15rem;
-    z-index: 2;
     height: fit-content;
     background-color: white;
     border-radius: 0.5rem;
