@@ -82,10 +82,30 @@
     justify-content: center;
     align-items: center;
   }
+  .maple-wrap{
+    flex-wrap: wrap;
+  }
   .maple-grid{
     display: grid;
   }
   /* margins */
   .margin-top-bottom{
     margin: 2rem 0rem;
+  }
+  /* background - colors */
+  .primary-color{
+    background-color: var(--primary-color);
+  }
+  .background-color{
+    background-color: var(--background-color);
+  }
+  .section-background-color{
+    background-color: var(--section-background-color);
+  }
+  .paragraph-color{
+    background-color: var(--paragraph-color);
+  }
+  /* padding */
+  .padding-lg{
+    padding: 2rem;
   }
