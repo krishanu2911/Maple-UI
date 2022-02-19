@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/base.css">
     <link rel="stylesheet" href="../Doc-css/docs.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <title>Color-Maple</title>
 </head>
 <body>
@@ -58,7 +60,7 @@
 
         <div class="main-display ">
                 <h1 class="margin-top-bottom">Colors</h1>
-                <p class="simebold-font">In the Library this color palette is used. Only four major colors were applied and used throughout.</p> 
+                <p class="semibold-font">In the Library this color palette is used. Only four major colors were used throughout.</p> 
                 <h2 class="margin-top-bottom">palette</h2>
                 <div class="component-display-div maple-flex-xy-center">
                     <div class="grid-wrap-2-2 maple-grid">
@@ -68,6 +70,33 @@
                         <div class="maple-flex-xy-center paragraph-color padding-lg">paragraph-color</div>
                     </div>
                 </div>
+                <pre>
+                    <code class="html">
+            :root{
+                --primary-color: #eebbc3;
+                --background-color: #232946;
+                --section-background-color: #d4d8f0;
+                --paragraph-color: #b8c1ec;
+                            
+            }
+            <div class="component-display-div maple-flex-xy-center">
+                <div class="grid-wrap-2-2 maple-grid">
+                    <div class="maple-flex-xy-center primary-color padding-lg">
+                        Primary color
+                    </div>
+                    <div class="maple-flex-xy-center background-color header-text-color padding-lg">
+                        background color
+                    </div>
+                    <div class="maple-flex-xy-center section-background-color padding-lg">
+                        sceondary color
+                    </div>
+                    <div class="maple-flex-xy-center paragraph-color padding-lg">
+                        paragraph-color
+                    </div>
+                </div>
+            </div>
+                    </code>
+                </pre>
         </div>
 
         <!-- footer section -->
@@ -111,5 +140,8 @@
     <script src="https://kit.fontawesome.com/0e624d796c.js" crossorigin="anonymous"></script>
     <script src="../JS/alert-component.js"></script>
     <script src="../JS/modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../JS/docs.js"></script>
 </body>
 </html>

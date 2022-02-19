@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/base.css">
     <link rel="stylesheet" href="../Doc-css/docs.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <title>Grid-maple</title>
 </head>
 <body>
@@ -58,7 +60,7 @@
 
         <div class="main-display ">
                 <h1 class="margin-top-bottom">Grid</h1>
-                <p class="simebold-font">Grids are the most one of powerfull thing in development which make the developer life easer so maple wants to take a step further and want to provide the per-build gird layouts</p> 
+                <p class="semibold-font">Grids are the most one of powerfull tool in development which make the developer life easer so maple wants to take a step further and want to provide the per-build gird layouts.</p> 
                 <h2 class="margin-top-bottom">Grid 2-2</h2>
                 <div class="component-display-div maple-flex-xy-center">
                     <div class="grid-wrap-2-2 maple-grid">
@@ -68,6 +70,18 @@
                         <div class="maple-flex-xy-center test-border">grid four</div>
                     </div>
                 </div>
+                <pre>
+                    <code class="html">
+            <div class="component-display-div maple-flex-xy-center">
+                <div class="grid-wrap-2-2 maple-grid">
+                    <div class="maple-flex-xy-center test-border">grid one</div>
+                    <div class="maple-flex-xy-center test-border">grid two</div>
+                    <div class="maple-flex-xy-center test-border">grid three</div>
+                    <div class="maple-flex-xy-center test-border">grid four</div>
+                </div>
+            </div>
+                    </code>
+                </pre> 
                 <h2 class="margin-top-bottom">Grid 3-3</h2>
                 <div class="component-display-div maple-flex-xy-center">
                     <div class="grid-wrap-3-3 maple-grid">
@@ -82,6 +96,23 @@
                         <div class="maple-flex-xy-center test-border">grid nine</div>
                     </div>
                 </div>
+                <pre>
+                    <code class="html">
+            <div class="component-display-div maple-flex-xy-center">
+                <div class="grid-wrap-3-3 maple-grid">
+                    <div class="maple-flex-xy-center test-border">grid one</div>
+                    <div class="maple-flex-xy-center test-border">grid two</div>
+                    <div class="maple-flex-xy-center test-border">grid three</div>
+                    <div class="maple-flex-xy-center test-border">grid four</div>
+                    <div class="maple-flex-xy-center test-border">grid five</div>
+                    <div class="maple-flex-xy-center test-border">grid six</div>
+                    <div class="maple-flex-xy-center test-border">grid seven</div>
+                    <div class="maple-flex-xy-center test-border">grid eight</div>
+                    <div class="maple-flex-xy-center test-border">grid nine</div>
+                </div>
+            </div>
+                    </code>
+                </pre>
         </div>
 
         <!-- footer section -->
@@ -124,5 +155,8 @@
     
     <script src="https://kit.fontawesome.com/0e624d796c.js" crossorigin="anonymous"></script>
     <script src="../JS/modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../JS/docs.js"></script>
 </body>
 </html>

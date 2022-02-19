@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/base.css">
     <link rel="stylesheet" href="../Doc-css/docs.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <title>Typography-Maple</title>
 </head>
 <body>
@@ -58,7 +60,14 @@
 
         <div class="main-display ">
                 <h1 class="margin-top-bottom">Typography</h1>
-                <p class="simebold-font">In the whole Component library <strong>Montserrat</strong> font is used.</p> 
+                <p class="semibold-font">In the whole Component library <strong>Montserrat</strong> font is used.</p>
+                <pre>
+                    <code class="html">
+            <!-- Import this into your css file -->
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat
+        :wght@300;400;500;600;700;900&family=Poppins:wght@300;400;700&display=swap');
+                    </code>
+                </pre>
         </div>
 
         <!-- footer section -->
@@ -100,5 +109,8 @@
     
     <script src="https://kit.fontawesome.com/0e624d796c.js" crossorigin="anonymous"></script>
     <script src="../JS/modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../JS/docs.js"></script>
 </body>
 </html>

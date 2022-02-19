@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/base.css">
     <link rel="stylesheet" href="../Doc-css/docs.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <title>Button-Maple</title>
 </head>
 <body>
@@ -58,31 +60,72 @@
 
         <div class="main-display ">
                 <h1 class="margin-top-bottom">Button</h1>
-                <p class="simebold-font">These wete majorly used throughout the web aap. which makes the users life easier in navigation throughout the webapp.</p> 
+                <p class="semibold-font">These were majorly used throughout the web aap. Which makes the users life easier in navigation throughout the webapp.</p> 
                 <h2 class="margin-top-bottom">Default Button</h2>
                 <div class="component-display-div-row maple-flex-xy-center">
                     <button class="btn ">Primary</button>
                     <button class="btn btn-secondary">secondary</button>
                 </div>
+                <pre>
+                    <code class="html">
+        <div class="component-display-div-row maple-flex-xy-center">
+            <button class="btn ">Primary</button>
+            <button class="btn btn-secondary">secondary</button>
+        </div>
+                    </code>
+                </pre>
                 <h2 class="margin-top-bottom">Default Success fail button</h2>
                 <div class="component-display-div-row maple-flex-xy-center">
                     <button class="btn btn-success ">success</button>
                     <button class="btn btn-failed  ">Failed</button>
                 </div>
+                <pre>
+                    <code class="html">
+        <div class="component-display-div-row maple-flex-xy-center">
+            <button class="btn btn-success">Primary</button>
+            <button class="btn btn-failed">secondary</button>
+        </div>
+                    </code>
+                </pre>
                 <h2 class="margin-top-bottom">Default Success fail button (outline)</h2>
                 <div class="component-display-div-row maple-flex-xy-center">
                     <button class="btn btn-suc-outline">success outline</button>
                     <button class="btn btn-fail-outline">fail outline</button>
                 </div>
+                <pre>
+                    <code class="html">
+        <div class="component-display-div-row maple-flex-xy-center">
+            <button class="btn btn-suc-outline">Primary</button>
+            <button class="btn btn-fail-outline">secondary</button>
+        </div>
+                    </code>
+                </pre>
                 <h2 class="margin-top-bottom">Link Button</h2>
                 <div class="component-display-div-row maple-flex-xy-center">
                     <a href="#" class="btn ">link</a>
                 </div>
+                <pre>
+                    <code class="html">
+        <div class="component-display-div-row maple-flex-xy-center">
+            <a href="#" class="btn ">link</a>
+        </div>
+                    </code>
+                </pre>
                 <h2 class="margin-top-bottom">F.A.B and Icon button</h2>
                 <div class="component-display-div-row maple-flex-xy-center">
                     <button class="btn btn-icon"><i class="fas fa-plus"></i></button>
                     <button class="btn floating-action-button"><i class="fas fa-address-book"></i></button>
                 </div>
+                <pre>
+                    <code class="html">
+        <div class="component-display-div-row maple-flex-xy-center">
+            <button class="btn btn-icon"><i class="fas fa-plus"></i></button>
+            <button class="btn floating-action-button">
+                <i class="fas fa-address-book"></i>
+            </button>
+        </div>
+                    </code>
+                </pre>
         </div>
 
         <!-- footer section -->
@@ -124,5 +167,8 @@
     
     <script src="https://kit.fontawesome.com/0e624d796c.js" crossorigin="anonymous"></script>
     <script src="../JS/modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../JS/docs.js"></script>
 </body>
 </html>

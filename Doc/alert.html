@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/base.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="../Doc-css/docs.css">
     <title>Alert-Maple</title>
 </head>
@@ -58,7 +60,7 @@
 
         <div class="main-display ">
                 <h1 class="margin-top-bottom">Alert</h1>
-                <p class="simebold-font">This component is used to give an impotant message to the user on urgent basis. The message can be warning , info, update or status anythingwhich need user attention!</p> 
+                <p class="semibold-font">This component is used to give an impotant message to the user on urgent basis. The message can be warning , info, update or status anythingwhich need user attention!</p> 
 
                 <h2 class="margin-top-bottom">Default Alert</h2>
 
@@ -70,6 +72,18 @@
                         <h5 class="alert-message">This is the alert message you have notification</h5>
                     </div>
                 </div>
+                <pre>
+                    <code class="html">
+                <div class="component-display-div maple-flex-xy-center">
+                    <div class="alert">
+                        <h5 class="alert-message">This is the alert message you have notification</h5>
+                    </div>
+                    <div class="alert alert-dark">
+                        <h5 class="alert-message">This is the alert message you have notification</h5>
+                    </div>
+                </div>
+                    </code>
+                </pre>
 
                 <h2 class="margin-top-bottom">Attention (status) Alert</h2>
 
@@ -86,10 +100,26 @@
                         <i class="fas fa-exclamation-triangle"></i>
                         <h5 class="alert-message">This is the alert message you have notification</h5>
                     </div>
-                    
-                
                 </div>
-
+                <pre>
+                    <code class="html">
+                <div class="component-display-div maple-flex-xy-center">
+                    <div class="alert alert-success ">
+                        <i class="fas fa-check-square"></i>
+                        <h5 class="alert-message">This is the alert message you have notification</h5>
+                    </div>
+                    <div class="alert alert-fail">
+                        <i class="fas fa-bomb"></i>
+                        <h5 class="alert-message">This is the alert message you have notification</h5>
+                    </div>
+                    <div class="alert alert-warn">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <h5 class="alert-message">This is the alert message you have notification</h5>
+                    </div>
+                </div>
+                    </code>
+                </pre>
+        
                 <h2 class="margin-top-bottom">Dismiss Alert</h2>
 
                 <div class="component-display-div maple-flex-xy-center">
@@ -98,6 +128,16 @@
                         <i class=" close-icon far fa-times-circle"></i>
                     </div>
                 </div>
+                <pre>
+                    <code class="html">
+                <div class="component-display-div maple-flex-xy-center">
+                    <div class="alert alert-dismiss">
+                        <h5 class="alert-message">This is the alert message you have notification</h5>
+                        <i class=" close-icon far fa-times-circle"></i>
+                    </div>
+                </div>
+                    </code>
+                </pre>
         </div>
 
         <!-- footer section -->
@@ -141,5 +181,8 @@
     <script src="https://kit.fontawesome.com/0e624d796c.js" crossorigin="anonymous"></script>
     <script src="../JS/alert-component.js"></script>
     <script src="../JS/modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../JS/docs.js"></script>
 </body>
 </html>

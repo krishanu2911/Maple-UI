@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/base.css">
     <link rel="stylesheet" href="../Doc-css/docs.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <title>Image-Maple</title>
 </head>
 <body>
@@ -58,27 +60,53 @@
 
         <div class="main-display ">
                 <h1 class="margin-top-bottom">Image</h1>
-                <p class="simebold-font">Image play an important role in grabbing the attention of the your app user so it should also be responsive and comes in different variations.</p> 
+                <p class="semibold-font">Image plays an important role in grabbing the attention of the your app user.</p> 
                 <h2 class="margin-top-bottom">Round Image</h2>
                 <div class="component-display-div-row maple-flex-xy-center">
                     <div class="img">
-                        <img class="img-rounded" src="../Assets/images/sample-img.png" alt="smaple-image" srcset="">
+                        <img class="img-rounded" src="../Assets/images/sample-img.png" alt="smaple-image">
                     </div>    
                 </div>
+                <pre>
+                    <code class="html">
+            <div class="component-display-div-row maple-flex-xy-center">
+                <div class="img">
+                    <img class="img-rounded" src="../Assets/images/sample-img.png" alt="smaple-image">
+                </div>    
+            </div>
+                    </code>
+                </pre>
                 
                 <h2 class="margin-top-bottom">Responsive Image</h2>
                 <div class="component-display-div-row maple-flex-xy-center">
                     <div class="img">
-                        <img class="img-res" src="../Assets/images/sample-img.png" alt="sample-image" srcset="">
+                        <img class="img-res" src="../Assets/images/sample-img.png" alt="sample-image">
                     </div>
                 </div>
-                
+                <pre>
+                    <code class="html">
+            <div class="component-display-div-row maple-flex-xy-center">
+                <div class="img">
+                    <img class="img-res" src="../Assets/images/sample-img.png" alt="sample-image">
+                </div>
+            </div>
+                    </code>
+                </pre>
                 <h2 class="margin-top-bottom">Squared (rounded border) Image</h2>
                 <div class="component-display-div-row maple-flex-xy-center">
                     <div class="img">
-                        <img class="img-res img-br-rounded" src="../Assets/images/sample-img.png" alt="sample-image" srcset="">
+                        <img class="img-res img-br-rounded" src="../Assets/images/sample-img.png" alt="sample-image">
                     </div>
                 </div>
+                <pre>
+                    <code class="html">
+            <div class="component-display-div-row maple-flex-xy-center">
+                <div class="img">
+                    <img class="img-res img-br-rounded" src="../Assets/images/sample-img.png" alt="sample-image">
+                </div>
+            </div>
+                    </code>
+                </pre>
                 
                 
         </div>
@@ -123,5 +151,8 @@
     
     <script src="https://kit.fontawesome.com/0e624d796c.js" crossorigin="anonymous"></script>
     <script src="../JS/modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../JS/docs.js"></script>
 </body>
 </html>

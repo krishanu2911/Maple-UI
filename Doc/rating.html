@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/base.css">
     <link rel="stylesheet" href="../Doc-css/docs.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <title>Rating-Maple</title>
 </head>
 <body>
@@ -58,7 +60,7 @@
 
         <div class="main-display ">
                 <h1 class="margin-top-bottom">Rating</h1>
-                <p class="simebold-font">This component is used to show the rating of the product , show or anything which can be compared. mostly it is used in ecommerce app , movie booking apps</p> 
+                <p class="semibold-font">This component is used to show the rating of the product. Mostly it is used in ecommerce app , movie booking apps.</p> 
                 <h2 class="margin-top-bottom">Rating Stars</h2>
                 <div class="component-display-div maple-flex-xy-center">
                     <div class="rating-div star-sm">
@@ -76,13 +78,43 @@
                         <i class="far fa-star not-selected"></i>
                     </div>
                 </div> 
+                <pre>
+                    <code class="html">
+            <div class="component-display-div maple-flex-xy-center">
+                <div class="rating-div star-sm">
+                    <i class="far fa-star selected"></i>
+                    <i class="far fa-star selected"></i>
+                    <i class="far fa-star selected"></i>
+                    <i class="far fa-star not-selected"></i>
+                    <i class="far fa-star not-selected"></i>
+                </div>
+                <div class="rating-div star-m">
+                    <i class="far fa-star selected"></i>
+                    <i class="far fa-star selected"></i>
+                    <i class="far fa-star not-selected"></i>
+                    <i class="far fa-star not-selected"></i>
+                    <i class="far fa-star not-selected"></i>
+                </div>
+            </div>
+                    </code>
+                </pre>
                 <h2 class="margin-top-bottom">Rating Pills</h2>
                 <div class="component-display-div maple-flex-xy-center">
                     <div class="rating-pill">
                         <i class="far fa-star selected"></i>
                         <span>4.3</span>
                     </div>
-                </div>        
+                </div> 
+                <pre>
+                    <code class="html">
+            <div class="component-display-div maple-flex-xy-center">
+                <div class="rating-pill">
+                    <i class="far fa-star selected"></i>
+                    <span>4.3</span>
+                </div>
+            </div>
+                    </code>
+                </pre>       
         </div>
 
         <!-- footer section -->
@@ -124,5 +156,8 @@
     
     <script src="https://kit.fontawesome.com/0e624d796c.js" crossorigin="anonymous"></script>
     <script src="../JS/modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../JS/docs.js"></script>
 </body>
 </html>
