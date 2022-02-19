@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/base.css">
     <link rel="stylesheet" href="../Doc-css/docs.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <title>list-Maple</title>
 </head>
 <body>
@@ -58,7 +60,7 @@
 
         <div class="main-display ">
                 <h1 class="margin-top-bottom">List</h1>
-                <p class="simebold-font">List is used to make an organized structure of showing data or notification and anything. so Maple has two variation of list.</p> 
+                <p class="semibold-font">List is used to make an organized structure of showing data or notification and anything. so Maple has two variation of list.</p> 
                 <h2 class="margin-top-bottom">Simple list</h2>
                 <div class="component-display-div maple-flex-xy-center">
                     <div class="list-wrap">
@@ -72,6 +74,21 @@
                         </ul>
                     </div>
                 </div>
+                <pre>
+                    <code class="html">
+                <div class="component-display-div maple-flex-xy-center">
+                    <div class="list-wrap">
+                        <ul>
+                            <li class="list-pills">list item 1</li>
+                            <li class="list-pills">list item 2</li>
+                            <li class="list-pills">list item 3</li>
+                            <li class="list-pills">list item 4</li>
+                            <li class="list-pills">list item 5</li>            
+                        </ul>
+                    </div>
+                </div>
+                    </code>
+                </pre>
                 <h2 class="margin-top-bottom">Notification list</h2>
                 <div class="component-display-div maple-flex-xy-center">
                     <div class="list-wrap ">
@@ -80,11 +97,40 @@
                             <li class="list-pills notification-pill"><i class="fab fa-whatsapp-square"></i> <h5>Notification 2</h5> </li>
                             <li class="list-pills notification-pill"><i class="fab fa-whatsapp-square"></i> <h5>Notification 3</h5> </li>
                             <li class="list-pills notification-pill"><i class="fab fa-whatsapp-square"></i> <h5>Notification 4</h5> </li>
-                            <li class="list-pills notification-pill"><i class="fab fa-whatsapp-square"></i> <h5>Notification 5</h5> </li>
-                            
+                            <li class="list-pills notification-pill"><i class="fab fa-whatsapp-square"></i> <h5>Notification 5</h5> </li>   
                         </ol>
                     </div>
                 </div>
+                <pre>
+                    <code class="html">
+        <div class="component-display-div maple-flex-xy-center">
+            <div class="list-wrap">
+                <ol >
+                    <li class="list-pills notification-pill">
+                        <i class="fab fa-whatsapp-square"></i> 
+                        <h5>Notification 1</h5>
+                    </li>
+                    <li class="list-pills notification-pill">
+                        <i class="fab fa-whatsapp-square"></i> 
+                        <h5>Notification 2</h5>
+                    </li>
+                    <li class="list-pills notification-pill">
+                        <i class="fab fa-whatsapp-square"></i> 
+                        <h5>Notification 3</h5>
+                    </li>
+                    <li class="list-pills notification-pill">
+                        <i class="fab fa-whatsapp-square"></i> 
+                        <h5>Notification 4</h5>
+                    </li>
+                    <li class="list-pills notification-pill">
+                        <i class="fab fa-whatsapp-square"></i> 
+                        <h5>Notification 5</h5>
+                    </li>   
+                </ol>
+            </div>
+        </div>
+                    </code>
+                </pre>
                 
                 
                 
@@ -129,5 +175,8 @@
     
     <script src="https://kit.fontawesome.com/0e624d796c.js" crossorigin="anonymous"></script>
     <script src="../JS/modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../JS/docs.js"></script>
 </body>
 </html>

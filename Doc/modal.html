@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/base.css">
     <link rel="stylesheet" href="../Doc-css/docs.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <title>Modal-Maple</title>
 </head>
 <body>
@@ -18,8 +20,8 @@
             </div>
             
             <div class="nav-right">
-                <a href="" class="navbar-icon txt-lg header-text-color">Docs</a>
-                <a href=""><i class="fab fa-github txt-xl navbar-icon header-text-color"></i></a> 
+                <a href="#" class="navbar-icon txt-lg header-text-color">Docs</a>
+                <a href="#"><i class="fab fa-github txt-xl navbar-icon header-text-color"></i></a> 
             </div>
         </nav>
 
@@ -58,13 +60,13 @@
 
         <div class="main-display ">
                 <h1 class="margin-top-bottom">Modal (dialog)</h1>
-                <p class="simebold-font">Modal is used to show your user the popups and urgent message in a elivated manner</p> 
+                <p class="semibold-font">Modal is used to show your user the popups and urgent message in an elivated manner</p> 
                 <h2 class="margin-top-bottom">Dialog</h2>
                 <div class="component-display-div maple-flex-xy-center">
                     <div class="modal-wrap">
                         <header class="dialog-header">
                             <div class="txt-xl bold-font">Github</div>
-                            <div class="txt-lg txt-gray">Comits</div>
+                            <div class="txt-lg txt-gray">Commits</div>
                             <div>2 files changed</div>
                             <div>1 new file created</div>
                         </header>
@@ -74,6 +76,24 @@
                         </div>
                     </div>
                 </div> 
+                <pre>
+                    <code class="html">
+            <div class="component-display-div maple-flex-xy-center">
+                <div class="modal-wrap">
+                    <header class="dialog-header">
+                        <div class="txt-xl bold-font">Github</div>
+                        <div class="txt-lg txt-gray">Comits</div>
+                        <div>2 files changed</div>
+                        <div>1 new file created</div>
+                    </header>
+                    <div class="dailog-btn-wrap">
+                    <button class="btn">Allow</button>
+                    <button class="btn">Deny</button>
+                    </div>
+                </div>
+            </div>
+                    </code>
+                </pre>
         </div>
 
         <!-- footer section -->
@@ -115,5 +135,8 @@
     
     <script src="https://kit.fontawesome.com/0e624d796c.js" crossorigin="anonymous"></script>
     <script src="../JS/modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../JS/docs.js"></script>
 </body>
 </html>

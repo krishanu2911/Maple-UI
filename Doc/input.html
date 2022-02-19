@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/base.css">
     <link rel="stylesheet" href="../Doc-css/docs.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <title>Input-Maple</title>
 </head>
 <body>
@@ -58,20 +60,34 @@
 
         <div class="main-display ">
                 <h1 class="margin-top-bottom">Input</h1>
-                <p class="simebold-font">Input were used to take info for your user and act accordingly to your requirement so you don't waste time in styling Maple is there for you.</p> 
+                <p class="semibold-font">Input were used to take info of your user, Now you don't waste time in styling Maple is there for you.</p> 
                 <h2 class="margin-top-bottom">Defaul Input</h2>
                 <div class="component-display-div-row maple-flex-xy-center">
                     <div class="input-form">
-                        <label for="input-user" class="input-lable">User Name<span class="req-mark">*</span></label>
+                        <label for="input-user" class="input-lable">UserName<span class="req-mark">*</span></label>
                         <input class="input-user" placeholder="Email ID " type="text">
                         <label for="input-user" class="input-lable">Password<span class="req-mark">*</span></label>
                         <input class="input-user" placeholder="Password" type="text">
                     </div>
                 </div>
+                <pre>
+                    <code class="html">
+        <div class="component-display-div-row maple-flex-xy-center">
+            <div class="input-form">
+                <label for="input-user" class="input-lable">User Name<span class="req-mark">*</span>
+                </label>
+                <input class="input-user" placeholder="Email ID " type="text">
+                <label for="input-user" class="input-lable">Password<span class="req-mark">*</span>
+                </label>
+                <input class="input-user" placeholder="Password" type="text">
+            </div>
+        </div>
+                    </code>
+                </pre>
                 <h2 class="margin-top-bottom">Error Input</h2>
                 <div class="component-display-div-row maple-flex-xy-center">
                     <div class="input-form">
-                        <label for="input-user" class="input-lable err">User Name<span class="req-mark">*</span></label>
+                        <label for="input-user" class="input-lable err">UserName<span class="req-mark">*</span></label>
                         <input class="input-user err-border " placeholder="Email ID " type="text">
                         <div class="input-message err">Please enter valid ID</div>
                         <label for="input-user" class="input-lable err">Password<span class="req-mark">*</span></label>
@@ -79,13 +95,37 @@
                         <div class="input-message err">min 8 character</div>
                     </div>
                 </div>
+                <pre>
+                    <code class="html">
+        <div class="component-display-div-row maple-flex-xy-center">
+            <div class="input-form">
+                <label for="input-user" class="input-lable err">UserName<span class="req-mark">*</span>
+                </label>
+                <input class="input-user err-border " placeholder="Email ID " type="text">
+                <div class="input-message err">Please enter valid ID</div>
+                <label for="input-user" class="input-lable err">Password<span class="req-mark">*</span>
+                </label>
+                <input class="input-user err-border" placeholder="Password" type="text">
+                <div class="input-message err">min 8 character</div>
+            </div>
+        </div>
+                    </code>
+                </pre>
                 <h2 class="margin-top-bottom">TextBox</h2>
                 <div class="component-display-div-row maple-flex-xy-center">
                     <div class="input-form">
-                        <textarea name="" class="input-user"  rows="4"></textarea>
+                        <textarea class="input-user" rows="4"></textarea>
                     </div>
                 </div>
-                
+                <pre>
+                    <code class="html">
+            <div class="component-display-div-row maple-flex-xy-center">
+                <div class="input-form">
+                    <textarea class="input-user"  rows="4"></textarea>
+                </div>
+            </div>
+                    </code>
+                </pre>       
                 
         </div>
 
@@ -129,5 +169,8 @@
     
     <script src="https://kit.fontawesome.com/0e624d796c.js" crossorigin="anonymous"></script>
     <script src="../JS/modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../JS/docs.js"></script>
 </body>
 </html>

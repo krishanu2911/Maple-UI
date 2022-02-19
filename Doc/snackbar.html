@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/base.css">
     <link rel="stylesheet" href="../Doc-css/docs.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <title>Snackbar-Maple</title>
 </head>
 <body>
@@ -18,14 +20,14 @@
             </div>
             
             <div class="nav-right">
-                <a href="" class="navbar-icon txt-lg header-text-color">Docs</a>
-                <a href=""><i class="fab fa-github txt-xl navbar-icon header-text-color"></i></a> 
+                <a href="#" class="navbar-icon txt-lg header-text-color">Docs</a>
+                <a href="#"><i class="fab fa-github txt-xl navbar-icon header-text-color"></i></a> 
             </div>
         </nav>
 
         <!-- side section area -->
 
-        <div class="side-section ">
+        <div class="side-section">
             <h3>Get Started</h3>
             <div class="list-wrap">
                 <ul>
@@ -58,12 +60,32 @@
 
         <div class="main-display ">
                 <h1 class="margin-top-bottom">Snackbar</h1>
-                <p class="simebold-font">This is cute component which don't disturbs you gently informs you about the message.</p> 
+                <p class="semibold-font">This is cute component which don't disturbs you. But gently informs user about the message.</p> 
                 <h2 class="margin-top-bottom">Toast (snackbar) <span class="txt-m txt-gray">Click Them</span></h2>
                 <div class="component-display-div-row maple-flex-xy-center">
                     <button class="btn" id="leading">Leading</button>
                     <button class="btn" id="baseline">baseline</button>
-                </div>       
+                </div>
+                <pre>
+                    <code class="html">
+            <div class="snack-container hide-snack snack-left">
+                <p class="snackbar-content">This is snack message.</p>
+                <div class="snack-icon-wrap">
+                    <a href="#" class="snack-link snack-icon">Retry</a>
+                    <i class="fas fa-times-circle snack-icon">
+                    </i>
+                </div>
+            </div>
+            <div class="snack-container hide-snack">
+                <p class="snackbar-content">This is snack message.</p>
+                <div class="snack-icon-wrap">
+                    <a href="#" class="snack-link snack-icon">Retry</a>
+                    <i class="fas fa-times-circle snack-icon">
+                    </i>
+                </div>
+            </div>
+                    </code>
+                </pre>       
         </div>
 
         <!-- footer section -->
@@ -120,5 +142,8 @@
     <script src="https://kit.fontawesome.com/0e624d796c.js" crossorigin="anonymous"></script>
     <script src="../JS/snackbar.js"></script>
     <script src="../JS/modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../JS/docs.js"></script>
 </body>
 </html>

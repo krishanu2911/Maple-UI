@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/base.css">
     <link rel="stylesheet" href="../Doc-css/docs.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <title>Docs-Maple</title>
 </head>
 <body>
@@ -17,8 +19,8 @@
             </div>
             
             <div class="nav-right">
-                <a href="" class="navbar-icon txt-lg header-text-color">Docs</a>
-                <a href=""><i class="fab fa-github txt-xl navbar-icon header-text-color"></i></a> 
+                <a href="#" class="navbar-icon txt-lg header-text-color">Docs</a>
+                <a href="#"><i class="fab fa-github txt-xl navbar-icon header-text-color"></i></a> 
             </div>
         </nav>
         <div class="side-section ">
@@ -52,9 +54,17 @@
         </div>
         <div class="main-display">
                 <h1 class="margin-top-bottom">Introduction</h1>
-                <p class="simebold-font">Maple UI is Open Source Component Library which is light weight and responsive which creaters all the need for you site development. This is the one stop solution for your components related requirement. </p>
+                <p class="semibold-font">Maple UI is Open Source Component Library which is light weight and responsive which provides all the need for you site development. This is the one stop solution for your components related requirement. </p>
                 <h1 class="margin-top-bottom">Installation</h1>
-                <p>To Install this Component Library in your webDevelopment area you need to put the bellow given link toyour header file.</p>
+                <p class="semibold-font">To Install this Component Library into your webDevelopment area you need to import the given link to your header file.</p>
+                <pre>
+                    <code class="html">
+            <!-- html -->
+            <link rel="stylesheet" href="https://maple-ui.netlify.app/CSS/base.css">
+            <!-- css -->
+            @import url("https://maple-ui.netlify.app/CSS/base.css");
+                    </code>
+                </pre>
         </div>
         <footer class=" footer">
             <div class="footer-text">
@@ -93,5 +103,8 @@
     
     <script src="https://kit.fontawesome.com/0e624d796c.js" crossorigin="anonymous"></script>
     <script src="../JS/modal.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../JS/docs.js"></script>
 </body>
 </html>
