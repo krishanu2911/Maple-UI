@@ -1,0 +1,28 @@
+.slider-whole-wrap {
+    max-width: 15rem;
+    position: relative;
+}
+.slider-whole-wrap .slider-hide{
+    display: none;
+}
+.slider-whole-wrap .slider-show{
+    display: block;
+}
+.slider-controls-wrap{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slider-controls-wrap #prev-btn{
+    position: relative;
+    right:  70px;
+}
+.slider-controls-wrap #next-btn{
+    position: relative;
+    left:   70px;
+}
+.slider-controls-wrap .btn{
+    background-color: var(--skin-bg-color);
+    color: var(--headline-color);
+}
