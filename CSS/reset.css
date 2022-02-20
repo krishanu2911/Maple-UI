@@ -77,6 +77,10 @@
   .maple-flex{
     display: flex;
   }
+  .maple-flex-spacebetween{
+     display: flex;
+     justify-content: space-between;
+  }
   .maple-flex-xy-center{
     display: flex;
     justify-content: center;

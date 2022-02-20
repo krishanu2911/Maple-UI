@@ -51,6 +51,9 @@ main{
     padding: 1rem;
     background-color: var(--paragraph-color);
 }
+.height-slider-div{
+    height: 30rem;
+}
 .component-display-div-row{
     flex-direction: row;
     gap: 1rem;
